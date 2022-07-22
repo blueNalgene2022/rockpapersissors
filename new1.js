@@ -38,7 +38,7 @@ function game() {
             } else if ((playerSelection === 'Paper') && (computerSelection === 'Rock')) {
                 playerWin ++;
                 return paperBeatRock;
-            } else if ((playerSelection === 'Sissots') && (computerSelection === 'Rock')) {
+            } else if ((playerSelection === 'Sissors') && (computerSelection === 'Rock')) {
                 playerWin ++;
                 return sissorsBeatPaper;
             } else if ((playerSelection = 'Rock') && (computerSelection === 'Sissors')) {
